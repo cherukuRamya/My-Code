@@ -1,0 +1,196 @@
+.Backgroundimg{
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.calculator{
+    justify-content: center;
+}
+
+
+/*.Textblock{
+    display: grid;
+    grid-template-columns: max-content;
+    height : 440px;
+    width: 290px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    justify-content: center;
+}*/
+.setup{
+    display:flex;
+    margin-top:100px;
+    height:0px;
+    width:280px;
+    justify-content: center;
+   
+   
+
+}
+.button{
+    display: flex;
+    justify-content:center;
+    padding-bottom: 10px;
+    width:100%;
+    background-color: rgb(121, 117, 117);
+    color: white;
+}
+
+
+.All {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    margin-top: 5px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    border-color: black;
+    
+}
+button{
+	width:50px;
+	height: 50px;
+	margin: 5px;
+	padding: 2px;
+	background-color: #fff;
+	border:black;
+	border-radius: 10px;
+	cursor: pointer;
+    align-items: center;
+    border-color: black;
+    background-color: #FFFFFF; /* sets the background color to white */
+    border-color: #000000; /* sets the border color to black */
+    border-width:0%x;
+   border-style: solid; /* sets the border style to solid */
+    margin-top:2px;
+   
+  }
+
+
+  #display {
+    display: block;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: solid black;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 24px;
+    margin-top: 10%;
+    justify-content: center;
+    margin-left: 3px;
+  }
+  
+ .button:hover{
+    color:white;
+   
+
+}
+.button:active{
+    background-color:rgb(206, 202, 202);
+    color: black;
+}
+.Del{
+    background-color:rgb(121, 117, 117) ;
+    color: white;
+}
+.Del:active{
+    background-color:red;
+
+}
+
+button:hover{
+    background-color:rgb(95, 92, 92);
+    color: white;
+}
+
+button:active{
+    background-color:rgba(179, 171, 171, 0.733) ;
+    color: black;
+}
+.button{
+    display: flex;
+    justify-content:center;
+    padding-bottom: 10px;
+    width:100%;
+    background-color: rgb(121, 117, 117);
+    color: white;
+}
+.Div{
+    background-color:rgb(121, 117, 117) ;
+    color: white;
+}
+.Mul{
+    background-color:rgb(121, 117, 117) ;
+    color: white;
+}
+.Sub{
+    background-color:rgb(121, 117, 117) ;
+    color: white;
+}
+.Add{
+    background-color:rgb(121, 117, 117) ;
+    color: white;
+}
+.Zero{
+    background-color:rgb(121, 117, 117) ;
+    color: white;
+}
+.Clear{
+    background-color:rgb(121, 117, 117) ;
+    color: white;
+}
+.bar{
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: transparent;
+    
+    position: absolute;
+    right:100px; 
+    top: 0px;
+    
+}
+.firstbar{
+    position: absolute;
+    grid-template-columns: max-content;
+    justify-content: center;
+    align-items: center;
+    right:10px; 
+    top: 20px;
+    margin-left:10px;
+}
+.user{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: transparent;
+    right: 30px;
+   
+}
+
+
+.bar:hover{
+    background-color: transparent;
+    color: rgb(55, 54, 54);
+}
+.bar:active{
+    background-color: transparent;
+    color: black;
+}
+.user:hover{
+    background-color: transparent;
+    color:rgb(55, 54, 54);
+}
+.user:active{
+    background-color: transparent;
+    color: rgb(58, 57, 57);
+}
+
+
